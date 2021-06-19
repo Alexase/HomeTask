@@ -14,7 +14,7 @@ public class testDinamicPage {
     WebDriver driver;
     @BeforeMethod
     void openBrowser(){
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\alexandra\\Documents\\chromedriver.exe");//should change to path
+        System.setProperty("webdriver.chrome.driver", ".\\chromedriver.exe");
         driver=new ChromeDriver();
         // Launch Website
         driver.navigate().to("https://the-internet.herokuapp.com/");
